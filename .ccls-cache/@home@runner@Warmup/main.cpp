@@ -1,11 +1,15 @@
-//Hey Programmer
+//max value
 #include <iostream>
-#include <string>
+#include <vector>>
+#include <limits>
 using namespace std;
 
-string greet(string s)
-{return "hey " + s;}
+float maxValue(vector<float> numbers)
+{
+  float max = -numeric_limits<float>::infinity();
+  return;
+}
 
 int main() {
-  cout <<greet("yo mama");
+  cout <<numeric_limits<float>infinity;
 }
