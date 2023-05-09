@@ -9,7 +9,7 @@ float maxValue(vector<float> numbers)
   float max = -numeric_limits<float>::infinity();
   for(auto num :numbers)
     if(num>max) max = num;
-  return 1.0;
+  return max;
 }
 
 int main()
@@ -26,5 +26,10 @@ int main()
 
   std::vector<float> numbers6{ 2, 5, 1, 1, 4 };
   cout<<endl<<maxValue(numbers1);
+  cout<<endl<<maxValue(numbers2);
+  cout<<endl<<maxValue(numbers3);
+  cout<<endl<<maxValue(numbers4);
+  cout<<endl<<maxValue(numbers5);
+  cout<<endl<<maxValue(numbers6);
 
 }
