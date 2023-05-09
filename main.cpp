@@ -6,5 +6,5 @@ string greet(string s)
 {return "hey " + s;}
 
 int main() {
-  cout <<greet(yo mama);
+  cout <<greet(yo mama");
 }
